@@ -2,7 +2,12 @@ import { useState, useContext } from 'react';
 
 import { UserContext } from '../../contexts/user.context';
 
-import { createAuthUserWithEmailAndPassword, createUserDocumentFromAuth, signInWithGooglePopup, signInAuthUserWithEmailAndPassword} from '../../utils/firebase/firebase.utils';
+import { 
+    createAuthUserWithEmailAndPassword,
+    createUserDocumentFromAuth,
+    signInWithGooglePopup,
+    signInAuthUserWithEmailAndPassword
+} from '../../utils/firebase/firebase.utils';
 
 import './sign-in-form.styles.scss';
 import FormInput from '../form-input/form-input.component';
